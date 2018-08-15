@@ -1,6 +1,6 @@
-copy from https://github.com/jgarff/rpi_ws281x
 rpi_ws281x
 ==========
+copy from https://github.com/jgarff/rpi_ws281x
 
 Userspace Raspberry Pi library for controlling WS281X LEDs.
 This includes WS2812 and SK6812RGB RGB LEDs
@@ -191,3 +191,6 @@ it out on the MISO pin.
 Make sure to hook a signal handler for SIGKILL to do cleanup.  From the
 handler make sure to call `ws2811_fini()`.  It'll make sure that the DMA
 is finished before program execution stops and cleans up after itself.
+
+### How to use this lib
+refer to this example from  https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/
